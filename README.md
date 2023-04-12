@@ -28,6 +28,9 @@
 - Person file
 - Student file
 - teacher file
+- Modified Person class to inherit from Nameable
+- Created TrimmerDecorator class
+- Created CapitalizeDecorator that inherit from Decorator
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
