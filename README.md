@@ -31,6 +31,9 @@
 - Modified Person class to inherit from Nameable
 - Created TrimmerDecorator class
 - Created CapitalizeDecorator that inherit from Decorator
+- Created rental class and ssetup associations between person and book
+- Created classroom class
+- Created book class
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
