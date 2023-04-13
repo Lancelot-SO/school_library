@@ -81,6 +81,7 @@ After you're finished please remove all the comments and instructions!
 - Created rental class and ssetup associations between person and book
 - Created classroom class
 - Created book class
+- Add basic ui
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
