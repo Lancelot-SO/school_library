@@ -22,7 +22,7 @@ class App
     print 'Name: '
     name = gets.chomp
     print 'Age: '
-    age = gets.chomp.to_i
+    age = gets.chomp
     person =
       case person_type
       when '1'
@@ -37,7 +37,7 @@ class App
         print 'Specialization: '
         specialization = gets.chomp
 
-        Teacher.new(age, specialization, name)
+        Teacher.new(name, specialization , age)
       end
 
     @people << person
@@ -107,7 +107,7 @@ class App
 
   def list_people
     @people.each do |person|
-      puts "[#{person.class}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
+      puts "[#{person.class}] Name: #{person.age},  Age: #{person.name}, ID: #{person.id},"
     end
   end
 
