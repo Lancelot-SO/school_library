@@ -65,6 +65,12 @@ After you're finished please remove all the comments and instructions!
 ## 🛠 Built With <a name="built-with"></a>
 - Ruby
 
+<!-- zoom link -->
+
+## 🚀 zoom link <a name="zoom-link"></a>
+
+- [zoom Link](https://drive.google.com/drive/u/0/folders/1DSoPd_euq18ERA5sKe-i7sxXrmMvNZ53)
+
 ### Tech Stack <a name="tech-stack"></a>
 
 <!-- Features -->
@@ -82,6 +88,7 @@ After you're finished please remove all the comments and instructions!
 - Created classroom class
 - Created book class
 - Add basic ui
+- Used Pry to check for errors.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

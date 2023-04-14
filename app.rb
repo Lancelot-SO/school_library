@@ -1,3 +1,4 @@
+require 'pry'
 require_relative 'person'
 require_relative 'capitalize_decorator'
 require_relative 'trimmer_decorator'
@@ -23,6 +24,7 @@ class App
     name = gets.chomp
     print 'Age: '
     age = gets.chomp
+
     person =
       case person_type
       when '1'
@@ -100,8 +102,8 @@ class App
   end
 
   def list_books
-    @books.each do |book|
-      puts "Title: '#{book.title}', Author: #{book.author}"
+    @books.each do |_book|
+      puts "Title: '#{books.title}', Author: #{books.author}"
     end
   end
 
